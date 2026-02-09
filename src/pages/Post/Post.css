@@ -1,0 +1,247 @@
+body{
+  font-size: large;
+  background-color: rgb(254, 243, 243);
+}
+
+span {
+  display: flex;
+  align-items: center;
+}
+
+.post-card{
+  margin-top: 100px;
+}
+.post-form {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post-form h3 {
+  margin-bottom: 10px;
+}
+
+.post-form .box {
+  margin-bottom: 15px;
+}
+
+.post-form .box p {
+  margin: 0;
+  font-size: 23px;
+  font-weight: 500;
+  color: black;
+}
+
+.post-form .box p span {
+  color: red;
+}
+
+.post-form .input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.post-form .flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.post-form .error {
+  color: red;
+  margin-top: 10px;
+}
+
+.post-form .post-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.post-form .submitted-prop-card {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.post-form .prop-sub-message {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.post-form .post-card {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.post-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.post-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.post-button:hover {
+  background-color: hsl(142, 72%, 29%);
+}
+
+/* CSS for buttons */
+.prop-card {
+  position: relative;
+}
+
+.prop-card-button {
+  padding: 8px 16px;
+  margin-right: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.view-propcard-button{
+  background-color: rgba(33, 33, 255, 0.742);
+  margin-top: 10px;
+  color: white;
+  width: 100px;
+  outline-color: none;
+}
+
+.view-propcard-button:hover :focus{
+  background-color: rgba(33, 33, 255, 0.611);
+  outline-color: none;
+}
+
+.approve-button,
+.decline-button {
+  width: auto;
+  margin: 20px;
+  width: 100px;
+  color: #ffffff;
+}
+
+.approve-button {
+  background-color: #28a745;
+  margin-right: 5px;
+}
+
+.decline-button {
+  background-color: #dc3545;
+}
+
+.approve-button :focus{
+  background-color: #28a746ac;
+}
+
+.prop-card-buttons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+}
+
+.post-form .flex > .box {
+  flex-basis: calc(50% - 10px);
+}
+
+.Warpper{
+  width: 100%;
+  justify-content: center;
+}
+
+.submitted-prop-card {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.submitted-prop-card h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.prop-sub-message {
+  color: #555;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.submitted-prop-card span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  margin: 0 5px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.checkbox {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.label-container {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  margin: 0;
+  padding: 10px;
+  border-radius: 8px;
+  /* background-color: #ffffff; */
+  cursor: pointer;
+}
+.label-container{
+  background-color: #ffffff;
+
+}
+
+.tick-title{
+  display: flex;
+  color: black;
+}
+
+input[type="checkbox"] {
+  margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .post-form .flex > .box {
+    flex-basis: 100%;
+  }
+}
