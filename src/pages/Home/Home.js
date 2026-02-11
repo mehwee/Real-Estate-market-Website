@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "../../components/Card";
-import FeaturedCard from "../../components/FeaturedCard";
+import Card from "../../components/card";
+import FeaturedCard from "../../components/featuredCard";
 import { useNavigate } from "react-router-dom";
 
 const Featuredprops = [
